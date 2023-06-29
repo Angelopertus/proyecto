@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient( 109.6deg,  rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+}
+
+Header {
+     display: flex;
+     width : auto;
+     Height: 200px;
+     background-image: linear-gradient( 109.6deg,  rgb(156, 206, 252) 11.2%, rgb(100, 113, 231) 91.1% );
+     Margin:20px;
+     Border : 5px solid rgb(0, 0, 0);
+     padding: 28px;
+     justify-content: center; /* centrar el elemento en el medio de arriba a abajo*/
+     align-items: center; /* centrar el elemento de izquierda, derecha */
+ 
+ }
+
+
+/* Ejemplo de un Article */
+.forecast {
+    margin: 0;
+    margin-top: .7rem;
+    padding: 0.3rem;
+    background-color: #eee;
+    font: .4rem 'Fira Sans', sans-serif;
+}
+
+.forecast > h1,
+.day-forecast {
+    margin: 0.2rem;
+    padding: 0.3rem;
+    font-size: .7rem;
+}
+
+.day-forecast {
+    background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+#caja{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.grupo{
+display: flex;
+Width: 100px ;
+height: 100px ;
+Background: red ;
+Margin : 16px ;
+justify-content: center;
+align-items: center;
+}
+
+#logo{
+display: flex;
+width :800px;
+height : 68px;
+Background :orange;
+Border : 3px solid ; 
+Border-radius : 30px;
+justify-content: center;
+align-items: center;
+}
+    
